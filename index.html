@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Out with BTS Theme</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #c8a2c8, #705697);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('bts_background.jpg');
+            background-size: cover;
+            background-position: center;
+            
+        }
+
+        #overlay {
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #9370db; /* Medium Purple color */
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        #btsImage {
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        #askButton {
+            background-color: #6a5acd; /* Slate Blue color */
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        #askButton:hover {
+            background-color: #483d8b; /* Dark Slate Blue color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="overlay">
+        <h1>Hey Beautiful!</h1>
+        <p> "You're my bestie, and that's why I can't hide things from you. Will you spend a special date with me?"</p>
+        <img id="btsImage" src="love.jpg" alt="BTS Image">
+        <br>
+        <button id="askButton" onclick="askOut()">always yes!</button>
+    </div>
+
+    <script>
+        function askOut() {
+            alert("Thank you sweetheart for making me yours!! Best of luck!");
+            // You can add additional actions here, like redirecting to a thank you page or sending a sweet message.
+        }
+    </script>
+</body>
+</html>
